@@ -376,6 +376,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SunflowersLwtech/covate](https://github.com/SunflowersLwtech/covate) | AI 编程助手的「学习边车」：对 AI 生成的代码改动自动出题，让开发者在接受前先证明自己看懂了逻辑、安全与性能影响；同时维护一份项目级的调试记忆，供后续会话查询。提供简体、繁体中文 README。 | 社区实现，Python 开发 🐍，本地运行 🏠（stdio / Docker），跨平台 🍎🪟🐧，MIT 许可，面向 AI 编程场景下的技能留存 |
 | [AI Developer Toolkit MCP](https://github.com/mjaskolski/developer-toolkit-mcp) | 只读远程 MCP 端点，覆盖 950+ 篇 AI 辅助开发指南（Cursor、Claude Code、Codex），英文+波兰文：`search` 关键词检索，`fetch` 获取全文 Markdown。无需账号、无需 API key。 | 官方实现 (Wondel.ai) 🎖️, 云服务 ☁️, 远程 Streamable HTTP (`developertoolkit.ai/mcp`), 官方 MCP Registry, 2 个只读工具。 |
 | [Speculative-MCP](https://github.com/VoDaiLocz/speculative-mcp) | 通用高性能 MCP 推测执行代理中间件 (Speculative Tool Execution Proxy)，并行预取只读工具结果，降低 AI Agent 40%+ 的 I/O 阻塞延迟。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 推测执行代理与性能优化, MIT。 |
+| [Tracefold](https://github.com/TraceFold/tracefold) | 形式化验证转换演算与撤销引擎：在 AI Agent 工具执行与文件系统变更落地前构建并校验确定性逆操作（Pre-commit inverse escrow），生成带 Ed25519 签名的离线可验证 DSSE 收据与 Merkle tile 追加日志，支持 Cedar 策略门禁。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, CLI (`gx`) + MCP 代理封装 (`gx wrap`), Apache-2.0。 |
 
 
 ---
