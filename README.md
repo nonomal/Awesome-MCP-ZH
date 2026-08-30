@@ -308,6 +308,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [FastCtx](https://github.com/yc-duan/fastctx) | Rust 本地工具运行时：为 Agent 提供省上下文的文件读取、内容搜索、文件发现、批量替换与 Bash 执行，中英双语文档。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache-2.0。 |
+| [Coding Tools MCP](https://github.com/xyTom/coding-tools-mcp) | 模型中立的编码运行时，通过 MCP 给任意 AI 聊天或 Agent 一双「安全的手」操作代码库。 | 社区实现, 本地运行 🏠, Apache-2.0, 中英文档。 |
+| [Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) | Godot 编辑器 C# 插件：让 Claude / Cursor / Copilot 等在 Godot 内创建节点、编辑场景、驱动项目，Unity-MCP 的 Godot 版。 | 社区实现, C# 开发, 本地运行 🏠, Apache-2.0。 |
+| [figwright](https://github.com/awdr74100/figwright) | 免费的双向 Figma MCP：设计稿转框架感知代码，也可把代码改动推回 Figma 画布；配套 Figma 插件，无需 Dev Mode 席位。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [VoDaiLocz/kilo-kit-mcp](https://github.com/VoDaiLocz/kilo-kit-mcp) | 全功能 18 工具 MCP 运行时与 177 个专家技能库，提供协议级 C4 工作流门禁、安全沙箱执行与 5 大认知推理引擎（思维树 DAG、对抗性 Red-Team 质询、5-Whys 根因追踪器、上下文压缩器与自我进化技能生成）。一键配置 Cursor / Claude Code / Antigravity / Windsurf。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 协议级硬门禁 + 18 个 MCP 工具 + 177 技能, Apache 2.0。 |
 | [ILoveMyJay/repocontext](https://github.com/ILoveMyJay/repocontext) | 专为 AI 编码 Agent 与 IDE 设计的下一代 AST 代码图谱、Token 智能压缩（省 70%~85%）与上下文打包引擎。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AST 骨架提取 + 任务导向语义修剪 + 敏感凭证自动脱敏, MIT。 |
 | [genesis-plan/lingshu-solver](https://github.com/genesis-plan/lingshu-solver) | 确定性（非大模型）实数方程组求解器：结果可验证、不随机、不幻觉；浏览器打开即用，也可作为 MCP 工具被 AI 智能体调用。免费、零依赖。 | 社区实现, TypeScript 开发, 浏览器/本地运行 🏠, 跨平台 🍎🪟🐧, 确定性求解, Apache-2.0。 |
@@ -405,6 +409,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                          | 中文介绍                                                                                                                                                              | 备注                                                                                                          |
 | :------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| [nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) | 桌面自动化 MCP：为任意 Agent 提供 Computer Use——控制屏幕、窗口、鼠标键盘。 | 社区实现, 本地运行 🏠, MIT。 |
 | [ClawTouch MCP](https://github.com/tinqiao-oss/clawtouch-mcp) | 通过外接 USB HID 硬件（树莓派 Pico 2，固件开源）驱动真实鼠标键盘：移动、点击、拖拽、输入、组合键、滚动；另有窗口枚举与按窗口裁剪的截图。被控机不需要安装任何软件；`--mock` 模式可无硬件试用。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 需外接 HID 硬件, 跨平台 🪟🍎🐧（窗口相关功能以 Windows 最完整）。 |
 
 ---
@@ -516,6 +521,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                             | 备注                                                                                                          |
 | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| [Model Studio CLI（阿里云百炼）](https://github.com/modelstudioai/cli) | 阿里云百炼官方 CLI，面向 Agent 框架暴露 Qwen 对话、图像与视频生成 / 编辑、语音合成与识别、联网搜索、记忆与知识检索等能力。 | 官方实现 🎖️, 本地运行 🏠, Apache-2.0, 中文文档。 |
+| [OpenConnector](https://github.com/oomol-lab/open-connector) | 开源 Agent 连接器网关（Pipedream / Composio 替代）：用户授权一次，向 Agent 暴露 1000+ 服务商、10000+ 预置 Action，支持 SDK / CLI / MCP / HTTP。 | 官方实现 🎖️, 云端/本地 🏠☁️, Apache-2.0, 多语言文档含简中。 |
 | [Alibaba Cloud DataWorks](https://github.com/aliyun/alibabacloud-dataworks-mcp-server) | 阿里云 DataWorks 官方集成，通过标准化接口与 DataWorks Open API 进行 AI 交互，用于云资源操作。      | 官方实现 (Alibaba Cloud) 🎖️, 阿里云数据平台。                                                               |
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | AWS 官方维护的一组 MCP 服务器合集，通过 Model Context Protocol（MCP）为 AI 助手提供对 AWS 文档、API、基础设施等资源的访问，帮助在任意支持 MCP 的环境中高效使用 AWS。  | 官方实现（AWS）🎖️，覆盖 AWS API、文档/最佳实践、基础设施与部署等多类场景，可配合各类 MCP 客户端（IDE、聊天应用等）使用。 |
 | [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)    | Cloudflare 官方集成，部署、配置和查询 Cloudflare 开发者平台资源 (Workers/KV/R2/D1)。                   | 官方实现 (Cloudflare) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Cloudflare 平台管理。                           |
@@ -769,6 +776,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                                 | 备注                                                                                                         |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| [Flint（microsoft/flint-chart）](https://github.com/microsoft/flint-chart) | 微软开源的可视化中间语言 + MCP Server：Agent 只需写简单、人可编辑的图表规格，即可稳定生成美观图表，附多套视觉主题。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [Axiom](https://github.com/axiomhq/mcp-server-axiom)                 | Axiom 官方集成，用自然语言查询和分析 Axiom 日志、追踪等事件数据。                                           | 官方实现 (Axiom), Python 开发, Axiom 日志分析。                                                              |
 | [Talivia Agent Kit](https://github.com/talivia-group/agent) | Talivia 官方 MCP 服务器、CLI 与 Agent Skill，帮助 AI Agent 安装网站分析追踪、验证实时事件，并将引荐来源、营销活动与客户旅程关联到支付收入。 | 官方实现 (Talivia) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://talivia.com/mcp`, npm: `@talivia/agent`。 |
 | [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana) | Grafana 官方 MCP 服务器，让 AI 查询仪表盘、数据源、Prometheus / Loki 指标与告警，辅助可观测性分析。 | 官方实现 (Grafana) 🎖️, Go 开发 🏎️, 本地/云端 🏠☁️, 监控可视化与告警。 |
@@ -859,6 +867,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                   | 备注                                                                                                         |
 | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| [Pireel Studio](https://github.com/pireel/pireel) | 面向人与 Agent 的开源 AI 视频编辑器（CapCut / ChatCut 替代），任意 Agent 可通过 MCP 驱动剪辑。 | 官方实现 🎖️, 本地运行 🏠, AGPL-3.0, 中英文档。 |
 | [Amazon Bedrock Nova Canvas](https://github.com/zxkane/mcp-server-amazon-bedrock)    | 使用 Amazon Nova Canvas 模型进行图像生成。                                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AWS Bedrock 图像生成。                                           |
 | [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | 将 Figma 设计稿的布局信息提供给 Cursor、Claude 等 AI 编程代理，实现「设计稿一键转代码」，还原度更高。 | 社区实现 (Framelink), TypeScript 开发 📇, 本地运行 🏠, Figma 设计转代码, 14K+ Stars。 |
 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 让 Claude 等 AI 直接控制 Blender 进行 3D 建模、场景创建与材质编辑，用自然语言完成三维内容创作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Blender 3D 建模, 22K+ Stars。 |
@@ -929,6 +938,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                         | 备注                                                                                                    |
 | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| [Awareness](https://github.com/everest-an/Awareness-Market) | 面向编码 Agent 的本地优先持久记忆：SQLite FTS5 + 本地嵌入，BM25 与向量 RRF 混合检索且检索阶段零 LLM 调用，完全离线、无需账号；在 LongMemEval 基准上给出可复现成绩。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 一条命令安装。 |
+| [Memmy](https://github.com/MemTensor/memmy-agent) | MemTensor 出品的个人 AI Agent 与本地记忆中枢：给所有 AI 一份共享、可控的记忆，DeepSeek Harness / OpenClaw / Hermes / Claude Code / Codex / Cursor / OpenCode 等均可接入。 | 官方实现 🎖️, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 桌面应用 + MCP。 |
+| [EdgeEver](https://github.com/tianma-if/edgeever) | 部署在 Cloudflare 上的开源、免费 Evernote 替代品：三栏笔记工作区，开放数据架构，原生 MCP 让 Agent 直接读写你的笔记。 | 社区实现, 云端/本地 🏠☁️, AGPL-3.0, Serverless 零成本自托管。 |
 | [Agentset](https://github.com/agentset-ai/mcp-server)                            | Agentset 官方集成，连接到 Agentset 的知识库 RAG 系统。                                                          | 官方实现 (Agentset) 🎖️, RAG 知识库集成。                                                             |
 | [Graphlit](https://github.com/graphlit/graphlit-mcp-server)                      | Graphlit 官方集成，将各种来源（Slack, Gmail, 播客等）内容摄入可搜索的 Graphlit 项目。                            | 官方实现 (Graphlit) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 多源内容 RAG。                                |
 | [GoodMemory](https://github.com/hjqcan/GoodMemory)                               | 面向 AI 应用与编码代理的本地优先、可审计记忆层，支持 Codex、Claude Code 和任意 MCP 客户端；提供持久化 SQLite、BM25 召回、审计、纠错、导出、删除与可选受治理写回。 | 官方实现 (GoodMemory) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npm install -g goodmemory`, 官方 MCP Registry。 |
@@ -987,6 +999,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                              | 备注                                                                                                     |
 | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| [x64dbg-MCP Server](https://github.com/duty1g/x64dbg-mcp-server) | Zig 编写的 x64dbg 原生插件，零依赖单文件，把调试器 84 项能力（反汇编、单步、断点、内存、寄存器、xrefs、PE 分析等）通过 Streamable HTTP / SSE 暴露给 MCP，用于 Agent 逆向工程。 | 社区实现, Zig 开发, 本地运行 🏠, Windows, MIT。 |
+| [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | AI 驱动的 OSINT 情报 Agent，19 个工具，提供交互式 REPL、MCP server 与 CLI 三种用法，兼容 Claude、GPT 等。 | 社区实现, 本地运行 🏠, MIT。 |
 | [BICScan](https://github.com/ahnlabio/bicscan-mcp)                                 | 获取 EVM 区块链地址（EOA, CA, ENS）甚至域名的风险评分/资产持有情况。 (BICScan 官方) (已在金融部分列出)       | 官方实现 (AhnLab) 🎖️, Python 开发 🐍, 云服务 ☁️, 区块链地址风险分析。                                 |
 | [Semgrep](https://github.com/semgrep/mcp)                                        | Semgrep 官方集成，让 AI 代理使用 Semgrep 进行代码安全扫描。 (已在开发工具列出)                            | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 代码安全扫描。                                 |
 | [13bm/GhidraMCP](https://github.com/13bm/GhidraMCP)                                | 集成 Ghidra 进行二进制分析，支持函数检查、反编译、内存探索、导入/导出分析等。                              | 社区实现, Python+Java 开发 🐍☕, 本地运行 🏠, 二进制逆向工程 (Ghidra)。                               |
